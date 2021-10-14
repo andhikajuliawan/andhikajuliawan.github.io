@@ -1,0 +1,79 @@
+/* Navbar */
+.navbar {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* jumbotron */
+div.jumbotron{
+    width: 100%;
+}
+section#jumbotron {
+    background-image: url(image/background.png);
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    padding: 300px 0px;
+    color: white;
+}
+section#jumbotron h1 {
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* about */
+section#about{
+    background-color: #1f1f20;
+    color: white;
+    padding: 50px 0px;
+}
+
+/* project */
+section#project {
+    padding: 50px 5%;
+    background-color: #262626;
+    color: white;
+}
+section#project h3 {
+    font-family: 'Kanit', sans-serif;
+}
+section#project a {
+    font-size: 14px;
+    text-decoration: none;
+}
+section#project div.container a img {
+    width: 70%;
+}
+section#project div.container div.row {
+    margin: 30px 0px;
+}
+
+/* footer */
+section#footer {
+    background-color: black;
+    padding: 20px; 
+    color: white;   
+}
+section#footer path{ 
+    color: red;
+}
+section#footer p{
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+section#footer div.social-media ul {
+    padding: 0px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
+section#footer div.social-media ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+section#footer div.social-media ul li a path {
+    color: #ffffff;
+}
+section#footer div.social-media ul li a path:hover {
+    color: rgb(100, 100, 100);
+}
