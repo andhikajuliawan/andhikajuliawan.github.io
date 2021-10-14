@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+section#navbar div.container {
+   background-color: black;
+}
+section#navbar path {
+    color: white;
+}
+section#navbar path:hover {
+    color: rgb(212, 212, 212);
+}
+section#navbar path:active {
+    color: rgb(255, 255, 255);
+}
+
+/* audio header */
+section#header {
+    background-image: url(image/studio-ghibli-the-wind-rises.gif);
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0px;
+    color: white;
+    margin-bottom: 50px;
+}
+section#header h1 {
+    font-size: 72px;
+    font-weight: bolder;
+}
+section#header path {
+    color: red;
+}
+
+/* story one */
+section#story-one {
+    margin-bottom: 50px;
+}
+section#story-one div.container {
+    padding: 0px 0px;
+}
+section#story-one img{
+    width: 100%;
+    background-size: cover;
+}
+section#story-one p{
+    color: white;
+    font-size: 18px;
+    transition: all 3s ease;
+    opacity: 0;
+}
+section#story-one div.container:hover p {
+    opacity: 1;
+}
+
+
+/* story two */
+section#story-two {
+    margin-bottom: 50px;
+}
+section#story-two div.container {
+    background-image: url(image/garage\ sale.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 800px;
+    filter: grayscale(100%);
+    transition: all 3s ease;
+}
+section#story-two div.container:hover {
+    filter: grayscale(0%);
+}
+section#story-two div.container p {
+    color: white;
+    padding: 660px 260px;
+    font-size: 18px;
+}
+
+/* story three */
+section#story-three div.container {
+    margin-bottom: 100px;
+}
+section#story-three img {
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    transition: all 10s ease;
+    opacity: 0;
+    transition: all 3s ease;
+}
+section#story-three p {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+section#story-three div.container:hover img {
+    opacity: 1;
+}
+
+
+/* video penutup */
+section#footer {
+    color: white;
+    background-image: url(image/footer.png);
+    background-size: cover;
+    padding: 50px;
+    font-weight: medium;
+    font-size: 18px;
+}
+section#footer path {
+    color: rgb(224, 210, 13);
+}
+
+
+
+
+
+
+
