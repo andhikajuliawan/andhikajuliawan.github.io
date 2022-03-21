@@ -1,0 +1,105 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-satu {
+  background-image: url(asset/Larry\ Fink.jpg);
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  padding: 425px 0 100px 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  color: white;
+}
+
+.container-dua {
+  margin-top: 100px;
+  color: black;
+  margin-bottom: 100px;
+}
+.container-dua .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.container-dua img {
+  width: 390px;
+  border-radius: 3px;
+}
+
+.container-dua .isi {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.container-tiga {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 70px 180px 50px 180px;
+}
+
+.container-tiga img {
+  margin-bottom: 30px;
+}
+.container-tiga .title {
+  font-weight: 500;
+  font-size: 35px;
+}
+.container-tiga .isi {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-empat {
+  background-image: url(asset/blackrock\ 2.png);
+  filter: grayscale(100%);
+  max-width: 100%;
+  padding: 350px 0;
+  background-size: cover;
+}
+
+.container-lima {
+  color: #0d0d0d;
+  padding: 80px 0;
+}
+.container-lima .title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 120px;
+  margin-bottom: 30px;
+}
+.container-lima .isi {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 120px;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer svg {
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.footer p {
+  margin: 0 0 3px 0;
+}
