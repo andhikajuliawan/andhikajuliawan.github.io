@@ -85,6 +85,117 @@
   text-align: justify;
 }
 
+/* JUSUF HAMKA */
+
+.container-enam {
+  background-image: url(asset/Background.png);
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  padding: 630px 0 0 0;
+}
+
+.container-tujuh {
+  padding: 200px 0;
+}
+
+.container-tujuh .title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 120px;
+  margin-bottom: 30px;
+}
+.container-tujuh .isi {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 120px;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.container-delapan {
+  padding: 100px 0;
+}
+
+.container-delapan .title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-delapan .isi {
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.container-delapan .text {
+  padding: 100px 0;
+}
+.container-delapan img {
+  width: 500px;
+}
+
+.container-sembilan {
+  background-image: url(asset/jusuf\ hamka\ 2.png);
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  padding: 750px 0 0 0;
+}
+
+.container-sepuluh {
+  padding: 200px 100px;
+}
+
+.container-sepuluh .title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-sepuluh .isi {
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.container-sepuluh .text {
+  padding: 100px 0;
+}
+
+.container-sebelas {
+  padding: 130px 100px;
+}
+
+.container-sebelas .title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-sebelas .image {
+  text-align: center;
+}
+
+.container-sebelas img {
+  width: 300px;
+  padding: 0 0 20px 0;
+}
+
+.container-sebelas .isi {
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
 .footer {
   background-color: #0d0d0d;
   color: white;
